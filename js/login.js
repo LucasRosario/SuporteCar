@@ -6,8 +6,8 @@ function validate(){
 	var username = document.getElementById("inputEmail").value;
 	var password = document.getElementById("inputPassword").value;
 		if ( username == "lucasrosario@car.ba.gov.br" && password == "car123"){
-			alert ("Login successfully");
-			window.location = "http://www.car.ba.gov.br"; // Redirecting to other page.
+			//alert ("Login successfully");
+			window.location.href = "http://www.car.ba.gov.br"; // Redirecting to other page.
 			return false;
 		}else{
 			attempt --;// Decrementing by one.
